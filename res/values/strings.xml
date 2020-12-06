@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="descripcion">Elija el nudo que desea realizar:</string>
+    <string name="app_name">Nudos de  Corbatas</string>
+    <string name="elige_nudo">Elige nudo</string>
+    <string-array name="tipos_nudos">
+    	<item>Simple</item>
+    	<item>Doble</item>
+    	<item>Windsor</item>
+    	<item>Medio Windsor</item>
+    	<item>Pequeno</item>
+    	<item>Mariposa</item>
+    </string-array>
+    <string name="ant">Anterior </string>
+    <string name="sig"> Siguiente</string>
+</resources>

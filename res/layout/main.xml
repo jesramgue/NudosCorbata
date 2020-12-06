@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:animationCache="true"
+        android:entries="@array/tipos_nudos"
+        android:prompt="@string/elige_nudo" >
+    </Spinner>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/ant"
+                android:layout_width="wrap_content"
+                android:onClick="miControladorDeVista"
+                android:text="@string/ant" >
+            </Button>
+
+            <Button
+                android:id="@+id/sig"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="miControladorDeVista"
+                android:text="@string/sig" >
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/visorImagen"
+        android:layout_width="fill_parent"
+        android:layout_height="300px"
+        android:layout_weight="0.52"
+        android:adjustViewBounds="true"
+        android:background="@drawable/sim_1" >
+    </ImageView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#000000" >
+    </LinearLayout>
+
+</LinearLayout>
